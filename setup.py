@@ -20,7 +20,7 @@ if is_posix:
 if os.environ.get('WITHOUT_CYTHON_OPTIMIZATIONS'):
     os.environ["CFLAGS"] += " -O0"
 
-# comment to test jenkins push trigger
+# comment to test jenkins push trugger
 
 # Avoid a gcc warning below:
 # cc1plus: warning: command line option ???-Wstrict-prototypes??? is valid
